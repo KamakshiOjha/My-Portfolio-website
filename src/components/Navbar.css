@@ -5,7 +5,7 @@
 
 .nav {
     position: relative;
-    background-color:  #27374D;
+    /* background-color:  #27374D; */
     height: 80px;
     z-index: 999;
 
@@ -18,46 +18,47 @@
     background-color:  #27374D;
     height: inherit;
     width: 100%;
-    display: flex;
-    align-items: center;
-    gap: 15vw;
-    justify-content: space-between;
+    
+    
+    
 
 }
 
-.nav_left ul {
+.ul {
     background-color: #27374D;
     height: inherit;
     display: flex;
-    width: 35vw;
-    padding: 3%;
+    flex-direction: row;
+    width: inherit;
+    padding: 0%;
     gap: 4%;
     float: left;
     text-align: center;
+    align-items: center;
 
     justify-content: space-around;
 
 
 }
 
-.nav_right ul {
+/* .nav_right ul {
     background-color:  #27374D;
     height: inherit;
     display: flex;
-    flex: 50%;
+    flex: 100%;
     width: 35vw;
     padding: 3%;
     gap: 4%;
     justify-content: end;
     float: right;
     text-align: center;
-}
+} */
 
-a {
+.a_1 {
     color: white;
 }
 
-a:hover {
+.a_1:hover {
     color: #DDE6ED !important;
 }
 

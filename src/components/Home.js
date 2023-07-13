@@ -65,6 +65,24 @@ export default function Home() {
                   </div>
         </div>
     </div>
+    <div className="Heading_3">
+        <div className="heading_in_3">
+            <p className="heading01_3 a_2"><Link className="a_2" to="/">SKILLS</Link> </p>
+            <p className="heading01_4 a_2">Creative freedom, one project at a time. View the power of innovation in action by browsing my eye-catching projects.</p>
+        </div>
+    </div>
+    <div className='skills'>
+        <div className='skills_in'>
+            <div className='box_b1'></div>
+            <div className='box_b1'></div>
+
+
+
+            <div></div>
+            <div></div>
+
+        </div>
+    </div>
     </>
   )
 }
