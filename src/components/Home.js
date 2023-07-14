@@ -1,10 +1,40 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './Home.css';
+import gsap from 'gsap';
+import { AiFillHtml5} from "react-icons/ai";
+import { BiLogoCss3, BiLogoJavascript, BiLogoReact} from "react-icons/bi";
+
 
 export default function Home() {
+    gsap.set(".ball", {xPercent: -50, yPercent: -50});
+
+const ball = document.querySelector(".ball");
+const pos = { x: window.innerWidth / 2, y: window.innerHeight / 2 };
+const mouse = { x: pos.x, y: pos.y };
+const speed = 0.2;
+
+const xSet = gsap.quickSetter(ball, "x", "px");
+const ySet = gsap.quickSetter(ball, "y", "px");
+
+window.addEventListener("mousemove", e => {    
+  mouse.x = e.x;
+  mouse.y = e.y;  
+});
+
+gsap.ticker.add(() => {
+  
+  // adjust speed for higher refresh monitors
+  const dt = 1.0 - Math.pow(1.0 - speed, gsap.ticker.deltaRatio()); 
+  
+  pos.x += (mouse.x - pos.x) * dt;
+  pos.y += (mouse.y - pos.y) * dt;
+  xSet(pos.x);
+  ySet(pos.y);
+});
   return (
     <>
+    
     <div className="Heading">
         <div className="heading_in">
             <p className="heading01 a_2"><Link className="a_2" to="/">KAMAKSHI OJHA</Link> </p>
@@ -73,16 +103,17 @@ export default function Home() {
     </div>
     <div className='skills'>
         <div className='skills_in'>
-            <div className='box_b1'></div>
-            <div className='box_b1'></div>
-
-
-
-            <div></div>
-            <div></div>
+            <div className='box_b1'><AiFillHtml5 className='icon_html'/><h1 className='h1_html'><Link className="link_html" to="https://www.w3schools.com/html/">HTML</Link></h1></div>
+            <div className='box_b1'><BiLogoCss3 className='icon_html'/><h1 className='h1_html'><Link className="link_html" to="https://www.w3schools.com/css/">CSS</Link></h1></div>
+            <div className='box_b1'><BiLogoJavascript className='icon_html'/><h1 className='h1_html'><Link className="link_html" to="https://www.w3schools.com/html/">JAVASCRIPT</Link></h1></div>
+            <div className='box_b1'><BiLogoReact className='icon_html'/><h1 className='h1_html'><Link className="link_html" to="https://www.w3schools.com/html/">REACT</Link></h1></div>
+            <div className='box_b1'><BiLogoCss3 className='icon_html'/><h1 className='h1_html'><Link className="link_html" to="https://www.w3schools.com/css/">CSS</Link></h1></div>
+            <div className='box_b1'><BiLogoJavascript className='icon_html'/><h1 className='h1_html'><Link className="link_html" to="https://www.w3schools.com/html/">JAVASCRIPT</Link></h1></div>
+            <div className='box_b1'><BiLogoReact className='icon_html'/><h1 className='h1_html'><Link className="link_html" to="https://www.w3schools.com/html/">REACT</Link></h1></div>
 
         </div>
     </div>
+    {/* <div class="ball"></div> */}
     </>
   )
 }

@@ -1,4 +1,14 @@
-
+.ball {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border: 3px solid dodgerblue;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 1000;
+  }
 .heading {
     /* margin-top: 180px; */
     margin-left: 0%;
@@ -56,6 +66,7 @@ height: 68vh;
     justify-content: flex-start;
     margin: 0% 3% 0% 3%;
     padding: 1%;
+    
 
 }
 .circle{
@@ -73,6 +84,7 @@ height: 68vh;
     justify-content: center;
     align-items: center;
     transition: transform 0.3s;
+
 }
   
 .circle:hover {
@@ -230,21 +242,45 @@ justify-content: space-between;
   }
 
   .skills{
-    margin: 2% 7% 3% 7%;
+    margin: 2% 15% 3% 17%;
+    
   }
   .skills_in{
     display: flex;
     flex-direction: row;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     justify-content: space-around;
+    
   }
   .box_b1{
     width: 15vw;
     height: 8vh;
     background-color:  #27374D;
-    border-radius: 20%;
-    /* border: 0%; */
+    border-radius: 5px;
+    border: 0%;
     margin: 0% 4% 3% 0%;
+    color: white;
+    font-size: 15px;
+    padding: 2% 1% 1% 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+  
+.box_b1:hover{
+
+  }
+
+  
+.icon_html{
+    width: 3vw;
+    height: 6vh;
+    margin-left:8% ;
+
+}
+.h1_html{
+    margin: 2.5% 10% 0% 0% ;
 
 
 }
@@ -253,6 +289,10 @@ justify-content: space-between;
 
 } */
 
+.link_html{
+    text-decoration: none !important;
+    color: white ;
+}
 
 @media only screen and (max-width: 968px){
 
