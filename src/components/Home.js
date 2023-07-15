@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import './Home.css';
 import gsap from 'gsap';
 import { AiFillHtml5} from "react-icons/ai";
-import { BiLogoCss3, BiLogoJavascript, BiLogoReact} from "react-icons/bi";
+import { BiLogoCss3, BiLogoJava, BiLogoJavascript, BiLogoReact} from "react-icons/bi";
 
 
 export default function Home() {
@@ -107,9 +107,7 @@ gsap.ticker.add(() => {
             <div className='box_b1'><BiLogoCss3 className='icon_html'/><h1 className='h1_html'><Link className="link_html" to="https://www.w3schools.com/css/">CSS</Link></h1></div>
             <div className='box_b1'><BiLogoJavascript className='icon_html'/><h1 className='h1_html'><Link className="link_html" to="https://www.w3schools.com/html/">JAVASCRIPT</Link></h1></div>
             <div className='box_b1'><BiLogoReact className='icon_html'/><h1 className='h1_html'><Link className="link_html" to="https://www.w3schools.com/html/">REACT</Link></h1></div>
-            <div className='box_b1'><BiLogoCss3 className='icon_html'/><h1 className='h1_html'><Link className="link_html" to="https://www.w3schools.com/css/">CSS</Link></h1></div>
-            <div className='box_b1'><BiLogoJavascript className='icon_html'/><h1 className='h1_html'><Link className="link_html" to="https://www.w3schools.com/html/">JAVASCRIPT</Link></h1></div>
-            <div className='box_b1'><BiLogoReact className='icon_html'/><h1 className='h1_html'><Link className="link_html" to="https://www.w3schools.com/html/">REACT</Link></h1></div>
+            <div className='box_b1'><BiLogoJava className='icon_html'/><h1 className='h1_html'><Link className="link_html" to="https://www.w3schools.com/css/">JAVA</Link></h1></div>
 
         </div>
     </div>
