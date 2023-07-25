@@ -1,0 +1,67 @@
+.contact{
+    margin: 1%;
+}
+
+.contact_in{
+    padding: 5%;
+}
+.form_in{
+    margin: 1% 25% 2% 25%;
+    padding:5% 10% 5% 10% ;
+    align-items: center;
+    background-image: linear-gradient(to right,#F8F6F4,#27374D) ;
+    border: 0;
+    border-radius: 18px;
+}
+.form_c{
+    display: flex;
+    flex-direction: column;
+    margin: 2% 2% 0% 0%;
+
+}
+.h2_a{
+    text-align: center;
+    font-size: 32px;
+}
+.name_a{
+    margin: 8% 2% 2% 5%;
+    font-size: 20px;
+}
+.name_i_a{
+    margin: 0% 2% 2% 5%;
+    height: 6vh;
+    border: 0;
+    border-radius: 4px;
+}
+.email_a{
+    margin: 2% 2% 2% 5%;
+    font-size: 20px;
+}
+.email_i_a{
+    margin: 0% 2% 2% 5%;
+    height: 6vh;
+    border: 0;
+    border-radius: 4px;
+}
+.button_a{
+    margin: 6% 35% 5% 35%;
+    align-items: center;
+    text-align: center;
+    height: 5vh;
+    border: 0;
+    border-radius: 8px;
+    color: white;
+    background-color: #27374D;
+}
+
+.button_a:hover{
+    color: #27374D;
+    background-color: white;
+}
+.textarea_cf{
+    margin: 0% 2% 2% 5%;
+    height: 19vh;
+    border: 0;
+    border-radius: 4px;
+}
+

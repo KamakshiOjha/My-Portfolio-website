@@ -2,8 +2,10 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './Home.css';
 import gsap from 'gsap';
-import { AiFillHtml5} from "react-icons/ai";
+import { AiFillHtml5, AiFillLinkedin} from "react-icons/ai";
 import { BiLogoCss3, BiLogoJava, BiLogoJavascript, BiLogoReact} from "react-icons/bi";
+import Contact from './Contact';
+
 
 
 export default function Home() {
@@ -49,6 +51,7 @@ gsap.ticker.add(() => {
         <div className='container_1'>
             <div className='container_1_in' >
                 <p className='intro_para'>I AM CURRENTLY LEARNING JAVA PROGRAMMING, WEB DEVELOPMENT(HTML, CSS, JAVASCRIPT and REACT) PRACTICING DSA IN JAVA, PYTHON</p>
+                <Link to="https://www.linkedin.com/in/kamakshiojha01/"><AiFillLinkedin/></Link>
             </div>
         </div>
         <div className='container'>
@@ -111,6 +114,9 @@ gsap.ticker.add(() => {
 
         </div>
     </div>
+    <div>{
+        <Contact/>
+        }</div>
     {/* <div class="ball"></div> */}
     </>
   )
