@@ -4,5 +4,8 @@
   margin: 0;
   text-decoration: none !important; 
   font-family: 'Libre Baskerville', serif;
-
+  
+}
+body{
+  background-color: #FAF3F0;
 }
