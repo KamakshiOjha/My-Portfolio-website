@@ -5,6 +5,7 @@ import gsap from 'gsap';
 import { AiFillHtml5, AiFillLinkedin} from "react-icons/ai";
 import { BiLogoCss3, BiLogoJava, BiLogoJavascript, BiLogoReact} from "react-icons/bi";
 import Contact from './Contact';
+import { FaGithub, FaInstagramSquare} from "react-icons/fa";
 
 
 
@@ -51,7 +52,9 @@ gsap.ticker.add(() => {
         <div className='container_1'>
             <div className='container_1_in' >
                 <p className='intro_para'>I AM CURRENTLY LEARNING JAVA PROGRAMMING, WEB DEVELOPMENT(HTML, CSS, JAVASCRIPT and REACT) PRACTICING DSA IN JAVA, PYTHON</p>
-                <Link to="https://www.linkedin.com/in/kamakshiojha01/"><AiFillLinkedin/></Link>
+                <Link  to="https://www.linkedin.com/in/kamakshiojha01/"><AiFillLinkedin className='icon_i' /></Link>
+                <Link to="https://github.com/KamakshiOjha"><FaGithub className='icon_i1'/></Link>
+                <Link to="https://www.instagram.com/kamakshiojha/?hl=en"><FaInstagramSquare className='icon_i1'/></Link>
             </div>
         </div>
         <div className='container'>

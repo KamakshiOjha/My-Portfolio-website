@@ -297,6 +297,23 @@ justify-content: space-between;
     color: white ;
 }
 
+.icon_i{
+    width: 3vw;
+    height: 5vh;
+    margin-left:1% ;
+    margin-top: 2%;
+    text-decoration: none !important;
+    color: #252B48 ;
+}
+.icon_i1{
+  width: 3vw;
+  height: 5vh;
+  margin-left: 2%;
+  text-decoration: none !important;
+  color: #252B48 ;
+  align-items: center;
+}
+
 @media only screen and (max-width: 968px){
 
     .heading01 {
