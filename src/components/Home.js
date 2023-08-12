@@ -5,7 +5,7 @@ import gsap from 'gsap';
 import { AiFillHtml5, AiFillLinkedin} from "react-icons/ai";
 import { BiLogoCss3, BiLogoJava, BiLogoJavascript, BiLogoReact} from "react-icons/bi";
 import Contact from './Contact';
-import { FaGithub, FaInstagramSquare} from "react-icons/fa";
+import { FaGithub, FaInstagramSquare, FaPython} from "react-icons/fa";
 
 
 
@@ -45,13 +45,13 @@ gsap.ticker.add(() => {
     </div>
     <div className="Heading_2">
         <div className="heading_in_2">
-            <p className="heading01_2 a_2"><Link className="a_2" to="/">FRONT-END DEVELOPER</Link> </p>
+            <p className="heading01_2 a_2"><Link className="a_2" to="/">Front-End Developer | AI/ML enthusiast</Link> </p>
         </div>
     </div>
     <div className='middle_1'>
         <div className='container_1'>
             <div className='container_1_in' >
-                <p className='intro_para'>I AM CURRENTLY LEARNING JAVA PROGRAMMING, WEB DEVELOPMENT(HTML, CSS, JAVASCRIPT and REACT) PRACTICING DSA IN JAVA, PYTHON</p>
+                <p className='intro_para'>"Fueling my boundless curiosity with passion and creativity, I'm immersing myself in the worlds of AI/ML, honing data structures and algorithms in Java, and crafting captivating web narratives through HTML, CSS, JavaScript, and React – a harmonious symphony of learning and innovation."</p>
                 <Link  to="https://www.linkedin.com/in/kamakshiojha01/"><AiFillLinkedin className='icon_i' /></Link>
                 <Link to="https://github.com/KamakshiOjha"><FaGithub className='icon_i1'/></Link>
                 <Link to="https://www.instagram.com/kamakshiojha/?hl=en"><FaInstagramSquare className='icon_i1'/></Link>
@@ -114,6 +114,8 @@ gsap.ticker.add(() => {
             <div className='box_b1'><BiLogoJavascript className='icon_html'/><h1 className='h1_html'><Link className="link_html" to="https://www.w3schools.com/html/">JAVASCRIPT</Link></h1></div>
             <div className='box_b1'><BiLogoReact className='icon_html'/><h1 className='h1_html'><Link className="link_html" to="https://www.w3schools.com/html/">REACT</Link></h1></div>
             <div className='box_b1'><BiLogoJava className='icon_html'/><h1 className='h1_html'><Link className="link_html" to="https://www.w3schools.com/css/">JAVA</Link></h1></div>
+            <div className='box_b1'><FaPython className='icon_html'/><h1 className='h1_html'><Link className="link_html" to="">PYTHON</Link></h1></div>
+
 
         </div>
     </div>
