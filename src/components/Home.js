@@ -6,6 +6,7 @@ import { AiFillHtml5, AiFillLinkedin} from "react-icons/ai";
 import { BiLogoCss3, BiLogoJava, BiLogoJavascript, BiLogoReact} from "react-icons/bi";
 import Contact from './Contact';
 import { FaGithub, FaInstagramSquare, FaPython} from "react-icons/fa";
+import Header from './Header';
 
 
 
@@ -121,8 +122,13 @@ gsap.ticker.add(() => {
     </div>
     <div>{
         <Contact/>
+        
+        }</div>
+    <div>{
+        <Header/>
         }</div>
     {/* <div class="ball"></div> */}
+
     </>
   )
 }

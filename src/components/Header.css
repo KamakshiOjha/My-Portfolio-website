@@ -1,0 +1,17 @@
+.header_out{
+    margin: 1%;
+    
+    
+}
+.header_in{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+}
+.name_in{
+    margin: 1% 1% 1% 2%;
+}
