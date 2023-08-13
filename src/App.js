@@ -5,6 +5,8 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Contact from './components/Contact';
 import Header from './components/Header';
+import Skills from './components/Skills';
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <Route path= '/'element={<Home/>}/>
       <Route path= '/contact'element={<Contact/>}/>
       <Route path= '/header'element={<Header/>}/>
+      <Route path= '/skills'element={<Skills/>}/>
+      <Route path= '/projects'element={<Projects/>}/>
     </Routes>
     </BrowserRouter>
     </>

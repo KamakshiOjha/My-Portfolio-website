@@ -1,7 +1,10 @@
+.body_h{
+    background-color:  #27374D;
+    color: aliceblue;
+}
 .header_out{
     margin: 1%;
-    
-    
+ 
 }
 .header_in{
     display: flex;
@@ -11,7 +14,30 @@
 .icons{
     display: flex;
     flex-direction: row;
+    margin-right: 1%;
+    margin-top: 0.6%;
+    text-decoration: none !important;
+    
 }
 .name_in{
     margin: 1% 1% 1% 2%;
+}
+.name_font{
+    font-size: 22px;
+}
+.icon_{
+    width: 3vw;
+    height: 5vh;
+    margin-left:1% ;
+    margin-top: 2%;
+    text-decoration: none !important;
+    color: white ;
+}
+.icon_{
+  width: 3vw;
+  height: 5vh;
+  margin-left: 2%;
+  text-decoration: none !important;
+  color:white;
+  align-items: center;
 }
