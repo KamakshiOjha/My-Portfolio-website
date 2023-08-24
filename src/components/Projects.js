@@ -37,7 +37,7 @@ export default function Projects() {
                       <div className="overlay">
                           <h3 className='h3_in_1'>BOOKCOVE</h3>
                           <p className='para_in_1'>BookCove is an online book purchase website that offers a wide selection of bestsellers and categories to cater to your reading needs. Additionally, it provides various sections to enhance your reading experience and connect with the literary community. </p>
-                          <Link to="this-is-digital-clone-greensock.netlify.app" className="btn">see project</Link>
+                          <Link to="https://bookcove.vercel.app/" className="btn">see project</Link>
                       </div>
                   </div>
         </div>
